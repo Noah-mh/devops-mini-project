@@ -32,7 +32,7 @@ const CreateOrganization = () => {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger>
-        <Button>Create Organization</Button>
+        <Button id="create-org-button">Create Organization</Button>
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
