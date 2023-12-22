@@ -21,6 +21,7 @@ const fakedata = [
   { name: "Cord", email: "csambrokh@bigcartel.com" },
   { name: "Andy", email: "aguiveri@uiuc.edu" },
   { name: "Alvina", email: "aswirej@about.com" },
+  { name: "Merrile", email: "merrile@gmail.com" },
 ];
 
 await db.user.createMany({
